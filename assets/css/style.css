@@ -239,6 +239,8 @@ h6 {
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .mobile-nav a:hover,
@@ -580,7 +582,7 @@ section .container {
   }
 }
 
-.resume .resume-title {
+.blog .blog-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -588,14 +590,14 @@ section .container {
   color: #fff;
 }
 
-.resume .resume-item {
+.blog .blog-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
 }
 
-.resume .resume-item h4 {
+.blog .blog-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -605,7 +607,7 @@ section .container {
   margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
+.blog .blog-item h5 {
   font-size: 16px;
   background: rgba(255, 255, 255, 0.15);
   padding: 5px 15px;
@@ -614,19 +616,19 @@ section .container {
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.blog .blog-item ul {
   padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+.blog .blog-item ul li {
   padding-bottom: 10px;
 }
 
-.resume .resume-item:last-child {
+.blog .blog-item:last-child {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+.blog .blog-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -636,6 +638,13 @@ section .container {
   top: 0;
   background: #18d26e;
   border: 2px solid #18d26e;
+}
+
+.blog li {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: none;
 }
 
 .services .icon-box {
