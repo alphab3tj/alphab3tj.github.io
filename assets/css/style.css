@@ -1132,4 +1132,10 @@ section .container {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
+
+  .col-lg-6 {
+    -ms-flex: none !;
+    flex: none !;
+    max-width: 0 !;
+  }
 }
